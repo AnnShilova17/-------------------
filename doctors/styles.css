@@ -1,0 +1,121 @@
+body{font-family: 'Open Sans';
+    font-style: normal;}
+.background__header{background: #0284C7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);}
+header{display: flex;
+    max-width: 1024px;
+    margin: 0 auto;
+    }
+.name{
+    
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 35px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 10px 0;}
+.menu{padding: 10px 0;
+    
+    }
+a{text-decoration: none;
+    
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+    
+    color: #FFFFFF;}
+.background__main{background: #E5E5E5;}
+main{max-width: 1024px;
+    margin: 0 auto;
+    }
+.title{padding-top: 125px;
+   
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    text-align: center;
+    color: #0369A1;}
+.text{padding-top: 64px;
+    padding-bottom: 83px;
+    
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    color: #737373;
+}
+
+input{box-sizing: border-box;
+    width: 100%;
+    padding: 13px;
+    background: #E0F2FE;
+    border: 1px solid #BAE6FD;
+    border-radius: 20px;
+    margin-bottom: 109px;
+   
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 38px;
+    color: #A3A3A3;}
+.doctors{display: flex;
+    max-width: 1024px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    padding: 20px;
+    box-sizing: border-box;
+    
+    
+
+}
+.doctor{width: calc(100%/12*4);
+    }
+#doctor__foto{box-shadow: 2px 2px 4px rgba(115, 115, 115, 0.25);
+    border-radius: 20px;
+    
+    width: 100%}
+.doctor__name{
+    
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    color: #404040;}
+.doctor__prof{
+   
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    color: #404040;
+}
+button{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    padding: 14px 40px;
+    color: #0284C7;
+    background: #FFFFFF;
+    border: 1px solid #0284C7;
+    border-radius: 10px;
+}
+footer{background: #F0F9FF;
+    color: #075985;}
+.footer__title{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;}
+.footer__text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;}
+.footer__facebook{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;}
+.footer__ps{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;}
+
